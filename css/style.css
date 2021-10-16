@@ -1,0 +1,387 @@
+
+*{
+    margin: 0;
+  }  
+  body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #611468;
+  }
+  
+  a:hover {
+    color: #6e0b77;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #header{
+    width: 100%;
+  }
+  
+  .wrapper{
+    width: 1200px;
+    margin:0 auto;
+  }
+  
+  #header .logo img {
+    max-height: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    float: left;
+  }
+  
+  .header-contact p{
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: right;
+    color: black;
+  }
+  
+  #hero {
+    width: 100%;
+    /*height: 75vh;*/
+    height: auto;
+    margin-top: 0px;
+    background: #39204e;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #fff;
+    
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 50px;
+    margin-top: 25px;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: justify;
+  
+  }
+  #hero .container{
+    padding-top: 80px;
+    background: #39204e;
+  
+  }
+  
+  
+  
+  #footer .copyright {
+    text-align: center;
+    font-size: 11px;
+    line-height: 30px;
+    margin-top: 0px;
+    font-family: "lato", sans-serif;
+    /*color: #5e5e5e;*/
+    color: black;
+  }
+  .footer_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  
+  
+  .col-lg-5{
+    width: 35%;
+  }
+  .col-lg-7{
+    width: 65%;
+  }
+  .login{
+    display: block;
+    float: left;     
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0;
+    /*margin-right: auto;*/
+    margin-left: 115px;
+    padding: 5px;
+    font-size: 16px;
+  
+  }
+  .login:hover
+  {
+    color: #ecac3d;
+  }
+  .login:active{
+    color: #ecac3d;
+  }
+  .signup{
+    display: block;
+    float: right;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    /*margin:0 10px 0 55px;*/
+    margin-top: 0;
+    margin-right: 15px;
+    padding: 5px;
+    /*margin-left: auto;*/
+    font-size: 16px;
+  }
+  .signup:hover
+  {
+    color: #ecac3d;
+  }
+  .signup:active{
+    color: #ecac3d;
+  }
+  .login-form{
+    
+    background: white;
+    padding: 5px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #eea21f;
+    /*position: relative;*/
+    
+  }
+  .login-form input{
+    font-size: 12px;
+    font-weight: light;
+  }
+  .signup-form input{
+    font-size: 12px;
+    font-weight: light;
+  }
+  .signup-form{
+    background: white;
+    padding: 5px;
+    border-bottom: #ecac3d;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 4px;
+    /*position: relative;*/
+    border-bottom-style: solid;
+    border-bottom-color: #eea21f;
+  }
+  .form-control{
+    color: black;
+  }
+  #fname{
+    margin-bottom: 18px;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+  }
+  #email{
+    margin-bottom: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+  }
+  #password{
+    margin-bottom: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #repeat-password{
+    margin-bottom: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+  }
+  .login-btn{
+    background: #eea21f; 
+    width: 90%;
+    border: none;
+    color: white;
+    margin: 25px auto;
+    display: block;
+    padding: 12px 0; 
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .checkbox-inline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .checkbox{
+    margin-top: 25px;
+    font-weight: normal!important;
+    text-align: center;
+    font-size: 10px;
+   
+  
+  }
+  .checkbox label{
+    font-size: 11px;
+  }
+  .checkbox input{
+   /*
+    vertical-align: middle;
+  */  
+  
+    margin-top: auto;
+    margin-bottom: auto;
+  
+  }
+  .forgot-password {
+    border: none;
+    background-color: inherit;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  @media (max-width: 768px) {
+    #header .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+    }
+  
+    #hero .container{
+    padding-top: 10px;
+  
+  }
+  
+  
+  .logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0!important;
+    max-width: 60%;
+    height: auto;
+    float: none!important;
+  }
+  
+    .logodiv{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      float: center;
+     
+      
+    }
+  
+    #header .logo img {
+      max-height: 43px;
+      margin: 10px auto;
+      margin-top: 15px!important;
+      margin-bottom: 0!important;
+  }
+  
+  
+  .header-contact{
+      display: block;
+      float: center;
+      margin: auto;
+      width: 80%;
+      font-size: 16px;
+     
+    }
+  .header-contact p{
+  
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    float: none;
+  }
+    
+  
+  #hero h1 {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px!important;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+  
+  
+  }
+  
+  
+    .login{
+      margin-top: 15px;
+      margin-bottom: 10px;
+      margin-left: 15%!important;
+  }
+   .signup{
+      margin-top: 15px;
+      margin-bottom: 10px;
+      margin-right: 15%!important;
+   }
+    .wrapper{
+      width: 90%;
+  }
+    .login-form{
+      margin: 30px;
+      margin-top: 10px!important;
+  }
+    .signup-form{
+      margin: 30px;
+      margin-top: 10px!important;
+  }
+  .row{
+      display:flex;
+      flex-flow: column;
+  }
+  #text{
+    order:2;
+  }
+  #form{
+    order:1;
+  }
+  #hero{
+      height: 1000px;
+  }
+  
+  }
+  /*END OF @media (max-width: 768px)*******************************/

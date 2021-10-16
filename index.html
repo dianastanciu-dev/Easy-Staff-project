@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EasyStaff</title>
+  <meta content="Easystaff este o platforma multi-rol si multi-user care isi propune sa conecteze temporar excedentul de forta de munca din anumite domenii cu deficitul de forta de munca din alte domenii. " name="descriptison">
+  <meta content="" name="keywords">
+  
+  <link href="css/style.css" rel="stylesheet">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!--Jquery-->
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+  <script>
+ $(document).ready(function(){
+ $(".signup-form").hide();
+ 
+ $(".signup").click(function(){
+ $(".signup-form").show();
+ $(".login-form").hide();
+ });
+
+ $(".login").click(function(){
+ $(".signup-form").hide();
+ $(".login-form").show();
+});
+});
+</script>
+ 
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+<header id="header" >  
+  <div class="wrapper"> 
+  <div class="container">
+ 
+<div class="logodiv"><a href="index.html" class="logo mr-auto"><img src="img/logo_easystaff.png" alt="" class="logo-img"></a></div>
+<div class="header-contact">
+        <p>
+         +40 745 245 767 | +40 742 081 801<br>
+         office@easystaff.ro<br>
+         Strada Vidin 76, sector 2, Bucuresti  
+        </p>
+</div>
+</div>
+</div>   
+</header>
+  
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+ 
+      <div class="wrapper">
+      <div class="container" style="height: 650px;">
+      <div class="row ">
+        <div id="text" class="col-md-7 col-sm-12 col-xs-12 ">
+               
+          <h1>Angajari cross-industry</h1>
+          <h2>Easystaff este o platforma multi-rol si multi-user care isi propune sa conecteze temporar excedentul de forta de munca din anumite domenii cu deficitul de forta de munca din alte domenii.
+<br><br>
+            Easystaff este o platforma inchisa, B2B, care se adreseaza direct companiilor care disponibilizeaza si care celor care angajeaza.
+<br><br>
+            Platforma Easystaff contine angajatii disponibilizati si dornici de a lucra temporar in alta industrie si ofera access securizat la baza de date, celor care doresc sa angajeze.</h2>
+        
+        </div>
+        <div id="form" class="col-md-5 col-sm-12 col-xs-12 sign-form-col">
+
+        <div class="logs">
+        <div class="login">Login</div>
+        <div class="signup">Cont nou</div>
+        </div>
+<br>
+<br>
+          <div class="login-form">
+            
+              <input type="text" class="form-control" id="fname" placeholder="nume utilizator" name="fname" required="">
+              <input type="password" class="form-control" id="password" placeholder="parola" name="password" required="">
+              <div class="checkbox-inline">  
+             <!--- <label class="checkbox">
+              <input type="checkbox">sunt de acord cu termenii si conditiile
+              </label>-->
+              </div>
+              <button type="submit" class="login-btn">Login</button>
+              <button class="forgot-password">am uitat parola</button>
+          </div><!--login-form--> 
+          
+          <div class="signup-form">
+            
+            <input type="text" class="form-control" id="fname" placeholder="nume utilizator" name="fname" required="">
+            <input type="text" class="form-control" id="email" placeholder="email" name="email" required="">
+            <input type="password" class="form-control" id="password" placeholder="parola" name="password" required="">
+            <input type="password" class="form-control" id="repeat-password" placeholder="repeta parola" name="password" required="">
+            <div class="checkbox-inline">  
+            <label class="checkbox">
+            <input type="checkbox">sunt de acord cu <a class="termeni" href="#">termenii si conditiile</a> 
+            </label>
+            </div>
+            <button type="submit" class="login-btn">Sign up</button>
+            
+        </div><!--signup-form--> 
+         
+          </div><!--col-lg-5-->
+          </div><!--row-->
+        </div>  <!--container-->
+        </div><!--wrapper-->
+ 
+        </div><!--container-->
+
+      
+  </section>
+  
+  <!-- End Hero -->
+  
+  <!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="wrapper">
+      <div class="container">
+       
+        <img src="img/foto_jos.png" alt="easystaff" class="footer_img">  
+        <div class="copyright">
+          <p>&copy; Copyright 2020 <strong><span>Easystaff</span></strong>. Toate drepturile rezervate.</p> 
+        </div>
+
+        </div>
+      </div>
+</div>
+  </footer><!-- End Footer -->
+
+
+</body>
+
+
+<style>
+*{
+  margin: 0;
+}  
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #611468;
+}
+
+a:hover {
+  color: #6e0b77;
+  text-decoration: none;
+}
+
+a{
+  color: black;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+#header{
+  width: 100%;
+}
+
+.wrapper{
+  width: 1200px;
+  margin:0 auto;
+}
+
+#header .logo img {
+  max-height: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  float: left;
+}
+
+.header-contact p{
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: right;
+  color: black;
+}
+
+#hero {
+  width: 100%;
+  /*height: 75vh;*/
+  height: auto;
+  margin-top: 0px;
+  background: #39204e;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #fff;
+  
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 50px;
+  margin-top: 25px;
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: justify;
+
+}
+#hero .container{
+  padding-top: 80px;
+  background: #39204e;
+
+}
+
+
+
+#footer .copyright {
+  text-align: center;
+  font-size: 11px;
+  line-height: 30px;
+  margin-top: 0px;
+  font-family: "lato", sans-serif;
+  /*color: #5e5e5e;*/
+  color: black;
+}
+.footer_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+}
+
+
+.col-lg-5{
+  width: 35%;
+}
+.col-lg-7{
+  width: 65%;
+}
+.login{
+  display: block;
+  float: left;     
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0;
+  /*margin-right: auto;*/
+  margin-left: 115px;
+  padding: 5px;
+  font-size: 16px;
+
+}
+.login:hover
+{
+  color: #ecac3d;
+}
+.login:active{
+  color: #ecac3d;
+}
+.signup{
+  display: block;
+  float: right;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  /*margin:0 10px 0 55px;*/
+  margin-top: 0;
+  margin-right: 15px;
+  padding: 5px;
+  /*margin-left: auto;*/
+  font-size: 16px;
+}
+.signup:hover
+{
+  color: #ecac3d;
+}
+.signup:active{
+  color: #ecac3d;
+}
+.login-form{
+  
+  background: white;
+  padding: 5px;
+  height: auto;
+  margin-left: 100px;
+  border-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #eea21f;
+  /*position: relative;*/
+  
+}
+.login-form input{
+  font-size: 12px;
+  font-weight: light;
+
+  
+}
+.signup-form input{
+  font-size: 12px;
+  font-weight: light;
+}
+.signup-form{
+  background: white;
+  padding: 5px;
+  border-bottom: #ecac3d;
+  height: auto;
+  margin-left: 100px;
+  border-radius: 4px;
+  /*position: relative;*/
+  border-bottom-style: solid;
+  border-bottom-color: #eea21f;
+}
+.form-control{
+  color: black;
+}
+#fname{
+  margin-bottom: 18px;
+  margin-top: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+#email{
+  margin-bottom: 18px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+#password{
+  margin-bottom: 18px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#repeat-password{
+  margin-bottom: 18px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+.login-btn{
+  background: #eea21f; 
+  width: 90%;
+  border: none;
+  color: white;
+  margin: 25px auto;
+  display: block;
+  padding: 12px 0; 
+  border-radius: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.checkbox-inline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.checkbox{
+  margin-top: 25px;
+  font-weight: normal!important;
+  text-align: center;
+  font-size: 10px;
+ 
+
+}
+.checkbox label{
+  font-size: 11px;
+}
+.checkbox input{
+ /*
+  vertical-align: middle;
+*/  
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.forgot-password {
+  border: none;
+  background-color: inherit;
+  font-size: 10px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+}
+
+
+@media (max-width: 768px) {
+  #header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #hero .container{
+  padding-top: 10px;
+
+}
+
+
+.logo-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0!important;
+  max-width: 60%;
+  height: auto;
+  float: none!important;
+}
+
+  .logodiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: center;
+   
+    
+  }
+
+  #header .logo img {
+    max-height: 43px;
+    margin: 10px auto;
+    margin-top: 15px!important;
+    margin-bottom: 0!important;
+}
+
+
+.header-contact{
+    display: block;
+    float: center;
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+   
+  }
+.header-contact p{
+
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  float: none;
+}
+  
+
+#hero h1 {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 18px!important;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+
+
+}
+
+
+  .login{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15%!important;
+}
+ .signup{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 15%!important;
+ }
+  .wrapper{
+    width: 90%;
+}
+  .login-form{
+    margin: 30px;
+    margin-top: 10px!important;
+}
+  .signup-form{
+    margin: 30px;
+    margin-top: 10px!important;
+}
+.row{
+    display:flex;
+    flex-flow: column;
+}
+#text{
+  order:2;
+}
+#form{
+  order:1;
+}
+#hero{
+    height: 1000px;
+}
+
+}
+/*END OF @media (max-width: 768px)*******************************/
+</style>
+</html>
